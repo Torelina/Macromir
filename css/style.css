@@ -1,0 +1,356 @@
+@font-face {
+    font-family: 'FuturaDemiC';
+    src: url('../fonts/FuturaDemiC.woff') format('woff'),
+         url('../fonts/FuturaDemiC.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'FuturaBookC';
+    src: url('../fonts/FuturaBookC.woff') format('woff'),
+         url('../fonts/FuturaBookC.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+
+
+body {
+    background-color:#fff;
+    margin:0;
+    color: #202023;
+    font-family: 'FuturaDemiC';
+
+}
+.wrapper{
+    margin-top: 24px;
+}
+.container{
+    max-width:1440px;
+    margin:auto;
+}
+
+/**header**/
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    margin:0px 120px;
+    
+}
+
+ul {
+    display:flex;
+    align-items:center;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    display:flex;
+    justify-content:space-between;
+    margin-right:24px ;
+    margin-top: 12px;
+    margin-bottom: 17px;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: #3E4243;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #3E4243;
+}
+
+.number {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #3E4243;
+    margin-left: 140px;
+    margin-top: 12px;
+    margin-bottom: 17px;
+    text-decoration: none;
+}
+.botton {
+    color: #FFFFFF;
+    background-color: #F56A2B;
+    border:none;
+    height: 60px;
+    cursor: pointer;
+}
+
+.call {
+    font-size: 13px;
+    
+    width: 142px;
+    height: 37px;
+    
+}
+
+/**banner**/
+
+.banner {
+    margin:57px 120px 0px 120px;
+}
+.main-title {
+    max-width: 677px;
+    height: 117px;
+    font-size: 54px;
+    margin-top: 72px;
+    padding-right: 30px;
+    
+    
+}
+
+.service {
+    font-family:'FuturaBookC' ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: #0D123D;
+    max-width: 677;
+    margin-top: 32px;
+}
+
+.partners {
+    margin-top: 48px;
+    width: 232px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.banner-img { 
+    background: url(image/pattern.png);
+    margin-left: 20px;
+    
+}
+
+ .rec-img {
+    
+    position:absolute;
+    margin-top: 65px;
+    z-index: 1;
+ }
+
+ .rectangles {
+    position: relative;
+    margin-right: 20px;
+    margin-left: 25px;
+    margin-top: 37px;
+    
+ }
+/**block-2**/
+.container-2 {
+    background: url(../image/bg-block-2.svg) no-repeat #F7F8FA;
+}
+.flex {
+    display: flex;
+}
+.about {
+    background-color: #fff;
+    border: 1px solid #D3D3D7;
+    width: 1200px;
+    margin:0px auto;
+}
+.macrow{
+    font-family: 'FuturaBookC';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    width: 397px;
+    height: 79px;
+    margin-top: 32px;
+   
+}
+
+ .title-2lvl {
+    font-size: 40px;
+    margin: 0px;
+ }
+ 
+ .padding{
+     margin:0px 120px; 
+     padding:80px 0px;
+     
+ }
+ .txt-about{
+     height:200px;
+     margin:64px 127px 30px 72px;
+ }
+.img-about{
+    margin:48px 70px 54px 0px;
+    width: 412px;
+    height: 208px;
+ }
+ .here{
+     margin: 0px 0px 32px 72px;
+ }
+.advantages{
+    display: flex;
+    width: 1200px;
+    margin: 0px auto;
+}
+.advantages-items {
+    border: 1px solid #D3D3D7;
+    background: #FFFFFF;
+}
+.advantages .advantages-items:nth-child(1){
+    padding: 33px 108px 40px 40px;
+    width: 153px;
+    height: 108px;
+}
+.advantages .advantages-items:nth-child(2){
+    padding: 57px 39px 40px 40px;
+    width: 222px;
+    height: 84px;
+}
+.advantages .advantages-items:nth-child(3){
+    padding: 24px 83px 40px 40px;
+    width: 178px;
+    height: 117px;
+}
+.advantages .advantages-items:nth-child(1) img{
+    height:64px;
+}    
+.advantages .advantages-items p {
+    font-size: 22px;
+    font-style: normal;
+    margin-bottom: 0px;
+}
+.advantages-all{
+    width: 301px;
+    height: 181px;
+    background: #EB6320;
+}
+.advantages-all p{
+    font-size: 22px;
+    color: #FEFEFE;
+    border-bottom: 1px solid #FEFEFE;
+    width: 178px;
+    line-height:29px;
+    padding-bottom: 10px;
+    margin:40px 70px 22px 40px;
+}
+.btn-advantages {
+    display: flex;
+    justify-content: flex-end;
+    padding-right:40px;
+}
+
+.about-bottom{
+    display: flex;
+    margin: 32px auto 0 auto;
+    width: 1200px;
+}
+.about-items{
+    padding:24px 0px 24px 40px;
+    height: 91px;
+    width: 277px;
+}
+
+.about-number{
+    font-family: 'FuturaDemiC';
+    font-size: 44px;
+    font-weight: 500;
+    margin:0px 0px 5px 0px;
+}
+.about-subtitle{
+    font-size: 16px;   
+    font-family: 'FuturaBookC';
+    font-weight: normal;
+    font-style: normal;
+    line-height: 21px;
+    margin:0px;
+}
+.about-items:first-child .about-subtitle{
+    width:143px;
+}
+.about-items:nth-child(2) .about-subtitle{
+    width:190px;
+}
+.about-items:nth-child(3) .about-subtitle{
+    width:158px;
+}
+.about-items:last-child .about-subtitle{
+    width:110px;
+}
+
+/*.polygon-bg-1{
+    background: url(../image/polygon-bg-1.svg) no-repeat;
+    width: 456.55px;
+    height: 431.3px;
+    top:740px;
+    
+}*/
+/*price*/
+.price{
+    background: #FFFFFF;
+    padding: 0px 0px 64px 72px ;
+    margin:0 421px 0 120px;
+    width: 899px;
+    height: 749px;
+    top:540px;
+}
+
+.price-h1{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    margin: 64px 0px 24px 0px;
+    position: absolute;
+    z-index: 1;
+}
+.price-slider{
+    display: flex;
+}
+.price-list{
+    margin: 124px 20px 0px 0px;
+}
+.price-items{
+    border-bottom:1px solid #E5E5EB;
+    width:364px;
+    background: url(../image/price-items-img.svg) no-repeat 0px 0px;
+    padding:0px 0px 16px 48px;
+}
+.price-items h4{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    color: #EB6320;
+    margin:24px 0px 0px 0px;
+}
+.price-items p{
+    font-weight: normal;
+    font-size: 16px;
+    font-family:'FuturaBookC';
+    font-weight: normal;
+    
+}
+.price-bottom{
+    font-weight: 500;
+    font-size: 32px;
+    line-height:42px;
+    width:428px;
+}
+.price-bottom span{
+    color: #EB6320;
+}
+.price-items:nth-child(3){
+    border-bottom: none;
+}
+.price-img{
+    background: url(../image/price-img.svg);
+    width: 443px;
+    height: 359px;
+}
