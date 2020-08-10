@@ -158,6 +158,7 @@ li {
 /**block-2**/
 .container-2 {
     background: url(../image/bg-block-2.svg) no-repeat #F7F8FA;
+    
 }
 .flex {
     display: flex;
@@ -185,7 +186,7 @@ li {
  }
  
  .padding{
-     margin:0px 120px; 
+     margin: 0px 120px;
      padding:80px 0px;
      
  }
@@ -291,20 +292,14 @@ li {
     width:110px;
 }
 
-/*.polygon-bg-1{
-    background: url(../image/polygon-bg-1.svg) no-repeat;
-    width: 456.55px;
-    height: 431.3px;
-    top:740px;
-    
-}*/
+
 /*price*/
 .price{
     background: #FFFFFF;
     padding: 0px 0px 64px 72px ;
-    margin:0 421px 0 120px;
-    width: 899px;
-    height: 749px;
+    margin:80px 0px 0 40px;
+    width: 827px;
+    height: 677px;
     top:540px;
 }
 
