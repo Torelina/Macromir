@@ -187,7 +187,7 @@ li {
  
  .padding{
      margin: 0px 120px;
-     padding:80px 0px;
+     padding:80px 0px 90px 0px;
      
  }
  .txt-about{
@@ -296,10 +296,10 @@ li {
 /*price*/
 .price{
     background: #FFFFFF;
-    padding: 0px 0px 64px 72px ;
+    padding: 0px 0px 0px 72px ;
     margin:80px 0px 0 40px;
     width: 827px;
-    height: 677px;
+    height: 750px;
     top:540px;
 }
 
@@ -362,3 +362,34 @@ li {
     width: 364px;
     margin-top: 48px;
 }
+/*
+.single-items .slick-dots{
+    list-style: square;
+    width: 95%;
+    bottom: -23px;
+}
+.single-items .slick-dots li {
+    margin-left:0px;
+    margin-right: 0px;
+    width:16px;
+}
+.single-items .slick-dots button {
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+.single-items .slick-dots button:before {
+    content: '\25A0';
+    list-style: square;
+    height: 6px;
+    cursor: pointer;
+    color: #989898;
+    font-size: 13px;
+}
+
+.single-items .slick-dots .slick-active button:before {
+    height: 6px;
+    cursor: pointer;
+    color: #4EBDBE;
+}
+*/
