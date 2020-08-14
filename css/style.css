@@ -393,3 +393,124 @@ li {
     color: #4EBDBE;
 }
 */
+
+/*Benefit*/
+
+.benefit-block{
+    display: flex;
+    justify-content: space-between;
+}
+.benefit-margin {
+    margin: 80px 180px 100px 120px;
+}
+h1 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height:52px;
+    margin-top: 0px;
+    margin-bottom: 48px;
+}
+.benefit-left{
+    margin:48px 0px 0px 0px;
+}
+.benefit-slider {
+    margin-bottom: 64px;
+}
+.benefit-slider p {
+    font-weight: 500;
+    font-size: 22px;
+    line-height:29px;
+    margin:0px 0px 24px 0px;
+}
+.benefit-slider input{
+    width: 480.4px;
+    height: 8px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.benefit-slider input::-moz-range-track{
+    background: #F7F8FA;
+    height: 8px;
+}
+.benefit-slider input::-moz-range-thumb{
+    background-image: url(../image/benefit-slider.svg) ;
+    background-size: 27px 27px;
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+    border: #F7F8FA;
+}
+.benefit-slider input::-moz-range-progress{
+    background: #EB6320;
+    height: 8px;
+}
+datalist {
+    width: 482px;
+   display: flex;
+   justify-content: space-between;
+   font-family: 'FuturaBookC';
+   font-size: 18px;
+   font-weight: normal;
+   line-height:23px;
+   color: #4D4D4D;
+}
+.benefit-slider div{
+    margin-bottom:40px ;
+}
+.button-benefit{
+    background: #EB6320;
+    color: #FFFFFF;
+    width: 277px;
+    height: 60px;
+    line-height:23px;
+    border:none;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'FuturaDemiC';
+    cursor: pointer;
+}
+.benefit-right{
+    background-image: url(../image/benefit-right.png);
+    width: 452px;
+    height: 598px;
+}
+.benefit-table table {
+    width: 100%;
+}
+.benefit-table{
+    margin:84px 42px 83px 30px;
+}
+.benefit-table tr th{
+    font-weight: 500;
+    font-size: 22px;
+    line-height:33px;
+    text-align: left;
+    width: 174px;
+}
+.benefit-table tr th:first-child,.benefit-table tr td:first-child { 
+    color: #7C7D81;
+}
+.benefit-table tr td{
+    font-weight: normal;
+    font-size: 16px;
+    line-height:24px;
+    font-family: 'FuturaBookC';
+    padding:15px 0px;
+}
+.benefit-table tr th:last-child,.benefit-table tr td:last-child { 
+    color: #EB6320;
+}
+.benefit-table td{
+    border-bottom: 1px solid #E5E5EB;
+}
+.benefit-table p{
+    font-weight: 500;
+    font-size: 22px;
+    line-height:33px;
+    margin-bottom: 0px;
+}
+.benefit-table p span{
+    color: #EB6320;
+    font-size: 33px;
+    line-height: 37px;
+}

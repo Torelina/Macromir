@@ -175,36 +175,95 @@
     <!-- /.container-2 --> 
     <div class="container">
         <div class="benefit">
+            <div class="benefit-margin">
             <h1>Посчитайте вашу выгоду в Макромире!</h1>
             <div class="benefit-block">
                 <div class="benefit-left">
                     <div class="benefit-slider">
                         <div class="slider-deal">
                             <p>Сколько сделок вы сделали в год?</p>
-                            <input type="range" min="0" max="100" step="1" value="70"> 
+                            <input type="range" list="tickmarks-deal" min="0" max="100" step="1" value="70">
+                            <datalist id="tickmarks-deal">
+                                <option value="0" label="0">
+                                <option value="10">
+                                <option value="20">
+                                <option value="30">
+                                <option value="40">
+                                <option value="50">
+                                <option value="60">
+                                <option value="70">
+                                <option value="80">
+                                <option value="90">
+                                <option value="100" label="100">
+                              </datalist> 
                         </div>
                         <!-- /.slider-deal -->
                         <div class="slider-commission">
                             <p>Какую комиссию берете с клиента?</p>
-                            <input type="range" min="10000" max="100000" step="1" value="70000">
+                            <input type="range" list="tickmarks-comission" min="10000"  max="100000" step="1" value="70000">
+                            <datalist id="tickmarks-comission">
+                                <option value="10000" label="10 000 руб.">
+                                <option value="20000">
+                                <option value="30000">
+                                <option value="40000">
+                                <option value="50000">
+                                <option value="60000">
+                                <option value="70000">
+                                <option value="80000">
+                                <option value="90000">
+                                <option value="100000" label="100 000 руб.">
+                              </datalist> 
                         </div>
                         <!-- /.slider-commission -->
                         <div class="slider-percent">
                             <p>Какой процент заплатили вы агентству?</p>
-                            <input type="range" min="0" max="100" step="1" value="70">
+                            <input type="range" list="tickmarks-percent" min="0" max="100" step="1" value="70">
+                            <datalist id="tickmarks-percent">
+                                <option value="0" label="0%">
+                                <option value="10">
+                                <option value="20">
+                                <option value="30">
+                                <option value="40">
+                                <option value="50">
+                                <option value="60">
+                                <option value="70">
+                                <option value="80">
+                                <option value="90">
+                                <option value="100" label="100%">
+                              </datalist> 
                         </div>
                         <!-- /.slider-percent -->
                     </div>
-                    <button>Оплатить сейчас</button>
+                    <button class="button-benefit">Оплатить сейчас</button>
                     <!-- /.benefit-slider -->
                 </div>
                 <!-- /.benefit-left -->
                 <div class="benefit-right">
-
+                    <div class="benefit-table">
+                        <table>
+                            <tr>
+                                <th>В Агенстве</th>
+                                <th>В Макромире:</th>
+                            </tr>
+                            <tr>
+                                <td>Сделок: 5 <br> Комиссия: 467 999  <br>Процент: 30%  <br> Доход: 367 777 руб.</td>
+                                <td>Сделок: 5 <br> Комиссия: 467 999 <br> Процент: 100% <br> Доход: 2367 777 руб. </td>   
+                            </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Годовой абонемент: <br> 60 000 рублей <br> Обучение по желанию: <br> 12 000 рублей <br> Дополнительные услуги: <br> 30 000 рублей </td>   
+                                </tr>
+                         </table>
+                         <p> Ваша прибыль составит: <br> <span> 3 000 000 руб. </span></p>
+                        </div>
+                        <!-- /.benefit-table -->
+                        
                 </div>
                 <!-- /.benefit-right -->
             </div>
             <!-- /.benefit-block -->
+        </div>
+        <!-- /.benefit-margin -->
         </div>
         <!-- /.benefit -->
     </div>
