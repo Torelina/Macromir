@@ -444,6 +444,30 @@ h1 {
     background: #EB6320;
     height: 8px;
 }
+.benefit-slider input::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    background-image: url(../image/benefit-slider.svg) ;
+    background-size: 27px 27px;
+    width: 27px;
+    height: 27px; 
+    border-radius: 100%;
+    cursor: pointer;
+    border: #F7F8FA;
+}
+.benefit-slider input::-webkit-slider-runnable-track {
+    background: #F7F8FA;
+    height: 8px;
+}
+
+.benefit-slider input::-ms-thumb{
+    background-image: url(../image/benefit-slider.svg) ;
+    background-size: 27px 27px;
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+    border: #F7F8FA;
+}
 datalist {
     width: 482px;
    display: flex;
